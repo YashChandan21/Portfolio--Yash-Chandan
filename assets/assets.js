@@ -81,26 +81,37 @@ export const assets = {
 
 export const workData = [
     {
+    title: "Expense Tracker with AI",
+    description: "Website",
+    bgImage: "/work-5.png",
+    link: "https://expense-tracker-ai-dun.vercel.app/",
+  },
+    {
     title: "Real-Time chat App",
     description: "Web App",
     bgImage: "/work-2.png",
+    link: "https://fullstack-chat-app-m114.onrender.com/login",
+  },
+    {
+    title: "Skill Swap Project",
+    description: "Odoo hackathon",
+    bgImage: "/work-4.png",
+    link: "https://hackathon-1-rddn.onrender.com/",
   },
   {
     title: "Razorpay Clone",
     description: "Frontend project",
-    bgImage: "/work-1.png",
+    bgImage: "/work-6.jpg",
+    link: "https://yashchandan21.github.io/Razorpay-Clone---Tailwind/",
   },
 
   {
     title: "Parallax site",
     description: "Web Design",
     bgImage: "/work-3.png",
+    link: "https://yashchandan21.github.io/Parallax-site/",
   },
-  {
-    title: "Skill Swap Project",
-    description: "Odoo hackathon",
-    bgImage: "/work-4.png",
-  },
+
 ];
 
 export const serviceData = [

@@ -1,7 +1,8 @@
 import { assets, workData } from "@/assets/assets";
 import React from "react";
 import Image from "next/image";
-import { motion } from "motion/react"
+import { motion } from "motion/react";
+import Link from "next/link";
 
 const Work = ({isDarkMode}) => {
   return (
@@ -36,6 +37,7 @@ const Work = ({isDarkMode}) => {
     transition={{delay:0.9, duration: 0.6}}
        className="grid grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] my-10 gap-5 dark:text-black">
         {workData.map((project, index) => (
+            <Link href={project.link} key={index} target="_blank" rel="noopener noreferrer">
           <motion.div
           whileHover={{scale: 1.05}}
           transition={{duration:0.3}}
@@ -54,6 +56,7 @@ const Work = ({isDarkMode}) => {
               </div>
             </div>
           </motion.div>
+          </Link>
         ))}
       </motion.div>
 
